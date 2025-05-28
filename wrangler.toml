@@ -20,7 +20,21 @@ routes = [
   { pattern = "support.zoom.us.vpn.stupidworld.web.id", custom_domain = true },
   { pattern = "www.uii.ac.id.vpn.stupidworld.web.id", custom_domain = true },
   { pattern = "untar.ac.id.vpn.stupidworld.web.id", custom_domain = true },
-  
+  { pattern = "vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "ava.game.naver.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "df.game.naver.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "cache.netflix.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "bakrie.ac.id.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "quiz.vidio.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "investor.fb.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "img.email2.vidio.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "app.gopay.co.id.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "graph.instagram.com.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "support.zoom.us.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "www.uii.ac.id.vpn.luckystup-id.xyz", custom_domain = true },
+  { pattern = "untar.ac.id.vpn.luckystup-id.xyz", custom_domain = true },  
   { pattern = "world.stupx2.my.id", custom_domain = true },
   { pattern = "ava.game.naver.com.world.stupx2.my.id", custom_domain = true },
   { pattern = "df.game.naver.com.world.stupx2.my.id", custom_domain = true },
@@ -50,6 +64,7 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
+
 
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/stpdwrld/siren/refs/heads/master/web/index.html"
 SUB_PAGE_URL  = "https://raw.githubusercontent.com/stpdwrld/siren/refs/heads/master/web/sub.html"
