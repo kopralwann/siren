@@ -41,10 +41,6 @@ routes = [
 binding = "SIREN"
 id = "f91b394c2f614fe597dfc58622ae9a96"
 
-[[kv_namespaces]]
-binding = "DOMAIN_REQUESTS"
-id = "379a9caf48f446048a69ba2d4bdb29d7"
-
 [build]
 command = "cargo install worker-build && worker-build --release"
 
